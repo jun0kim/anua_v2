@@ -33,64 +33,50 @@ div {
 
 #main-content a {
     width: 67.5%;
-    height: calc(6vh + 10px);
-    top: calc(200vh - 20px);
-    left: 50%;
-}
-
-#main-content {
-    position: relative;
-    aspect-ratio: 1100 / 4560;
-    min-height: 90vh; /* 최소 높이 추가 */
-    background-image: url('images/img1.png');
-}
-
-#main-content a {
-    width: 67.5%;
-    height: calc(6vh + 10px);
-    top: calc(200vh - 20px);
+    height: 12vw;
+    top: 94.5%;
     left: 50%;
 }
 
 #sub-title {
     position: relative; /* 내부 요소 absolute 배치를 위해 필요 */
-    min-height: 90vh; /* 최소 높이 추가 */
+    width: 100%;
     aspect-ratio: 1100 / 2944;
     background-image: url('images/img2.png');
 }
 
 #sub-title a {
     width: 67.5%;
-    height: calc(6vh + 10px);
-    top: calc(126vh - 20px);
+    height: 12vw;
+    top: 91.5%;
     left: 50%;
 }
 
 #first-link-container {
     position: relative; /* 내부 요소 absolute 배치를 위해 필요 */
-    min-height: 90vh; /* 최소 높이 추가 */
+    width: 100%;
     aspect-ratio: 1100 / 2945;
     background-image: url('images/img3.png');
 }
 
 #first-link-container a {
     width: 67.5%;
-    height: calc(6vh + 10px);
-    top: calc(126vh - 20px);
+    height: 12vw;
+    top: 91.5%;
     left: 50%;
 }
 
 #second-link-container {
     position: relative; /* 내부 요소 absolute 배치를 위해 필요 */
-    min-height: 90vh; /* 최소 높이 추가 */
+    width: 100%;
     aspect-ratio: 1100 / 4324;
     background-image: url('images/img4.png');
 }
 
 #second-link-container a {
     width: 62.5%;
-    height: calc(6vh + 10px);
-    top: calc(82vh - 20px);
+    height: 12vw;
+    top: 40.5%;
     left: 50%;
 }
 
