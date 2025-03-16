@@ -1,0 +1,96 @@
+body {
+    margin: 0 0 0 0;
+    width: 100%;
+}
+.container {
+    width: 100%;
+}
+
+div a {
+    /* background: rgba(255, 0, 0, 0.3); */
+    transform: translate(-50%, 0); /* Y축 이동 제거 */
+    display: block;
+    position: absolute;
+}
+
+div {
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    width: 100%;
+}
+
+#header {
+    aspect-ratio: 1100 / 1802;
+    background-image: url('images/TOP.png');
+}
+
+#main-content {
+    position: relative; /* 내부 요소 absolute 배치를 위해 필요 */
+    aspect-ratio: 1100 / 4560;
+    background-image: url('images/img1.png');
+}
+
+#main-content a {
+    width: 67.5%;
+    height: calc(6vh + 10px);
+    top: calc(200vh - 20px);
+    left: 50%;
+}
+
+#main-content {
+    position: relative;
+    aspect-ratio: 1100 / 4560;
+    min-height: 90vh; /* 최소 높이 추가 */
+    background-image: url('images/img1.png');
+}
+
+#main-content a {
+    width: 67.5%;
+    height: calc(6vh + 10px);
+    top: calc(200vh - 20px);
+    left: 50%;
+}
+
+#sub-title {
+    position: relative; /* 내부 요소 absolute 배치를 위해 필요 */
+    min-height: 90vh; /* 최소 높이 추가 */
+    aspect-ratio: 1100 / 2944;
+    background-image: url('images/img2.png');
+}
+
+#sub-title a {
+    width: 67.5%;
+    height: calc(6vh + 10px);
+    top: calc(126vh - 20px);
+    left: 50%;
+}
+
+#first-link-container {
+    position: relative; /* 내부 요소 absolute 배치를 위해 필요 */
+    min-height: 90vh; /* 최소 높이 추가 */
+    aspect-ratio: 1100 / 2945;
+    background-image: url('images/img3.png');
+}
+
+#first-link-container a {
+    width: 67.5%;
+    height: calc(6vh + 10px);
+    top: calc(126vh - 20px);
+    left: 50%;
+}
+
+#second-link-container {
+    position: relative; /* 내부 요소 absolute 배치를 위해 필요 */
+    min-height: 90vh; /* 최소 높이 추가 */
+    aspect-ratio: 1100 / 4324;
+    background-image: url('images/img4.png');
+}
+
+#second-link-container a {
+    width: 62.5%;
+    height: calc(6vh + 10px);
+    top: calc(82vh - 20px);
+    left: 50%;
+}
+
